@@ -1,0 +1,16 @@
+// Faça um algoritmo de soma, onde o usuario pode informar quantos numeros ele quiser,
+// assim que terminar de informar os numeros, deve ser exibida a soma desses numeros
+
+
+var soma = 0;
+
+var continuar = "sim";
+
+enquanto (continuar == "sim") {
+    var valor = leia("Digite um número: ");
+    soma = soma + real(valor); 
+    
+    continuar = leia("Você quer continuar? (sim/nao): ");
+}
+
+escreva("A soma dos números informados é: " + soma);

@@ -1,0 +1,5 @@
+
+var peso = inteiro(leia('Escreva seu peso: '))
+var alt = real(leia('Escreva sua altura: '))
+var imc = (alt * alt) / peso
+escreva('Meu IMC é: ' + imc)

@@ -1,0 +1,4 @@
+escreva('Ola eu sou o n° 1, como é seu nome?')
+var usuario = leia('Digite seu nome: ')
+escreva('Meu nome é ' + usuario)
+escreva('Bem vindo ao clube' + usuario)

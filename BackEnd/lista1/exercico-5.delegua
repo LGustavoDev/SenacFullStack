@@ -1,0 +1,9 @@
+
+
+var salahora = real(leia("Digite hora trabalhada: " ))
+var horaextra = real(leia("Digite a quantidade de hora extra: "))
+var totalextra =(horaextra * 15)
+var totalsala = (salahora * 10)
+var bruto = (totalsala + totalextra)
+ escreva("Seu salario bruto é " + bruto)
+ escreva("Seu salario liquido a receber é: " +(bruto - (bruto * 0.10)))

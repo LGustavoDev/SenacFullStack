@@ -1,0 +1,4 @@
+var nome = leia("Qual seu nome: ")
+
+escreva("Seu nome em letra maiuscula é:"+ nome.maiusculo()) 
+escreva("Seu nome em letra minuscula é:"+ nome.minusculo())

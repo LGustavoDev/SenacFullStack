@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'poppins' , sans-serif;
+}
+body {
+    background: linear-gradient(315deg, #ffffff, #d7e1ec);
+    
+
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+
+}
+h1 {
+    padding: 20px;
+}
+
+.logo {
+    padding-top: 10px;
+    position: relative;
+    font-size: 30px;
+    color: black;
+    font-weight: 600;
+}
+.menu a {
+    display: inline-block;
+    font-size: 25px;
+    color: black;
+    font-weight: 600;
+    margin-left: 35px;
+    transition: .3s;
+}
+.menu a:hover,
+.menu a.active {
+    color: yellowgreen;
+    border-radius: 10px;
+
+}
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+}
+.conteudo {
+    max-width: 600px;
+}
+.conteudo h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.conteudo h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: yellowgreen;
+}
+.conteudo p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+.home .botao {
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+    
+}
+.botao a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+}  
+.botao a:nth-child(2) {
+    background: transparent;
+}
+.botao a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: yellowgreen;
+    z-index: -1;
+    transition: .5s;
+}
+.botao a:hover::before {
+    width: 100%;
+}
+.incone {
+    position: absolute;
+    bottom: 130px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+.incone a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    font-size: 25px;
+    color: #00abf0;
+    transition: transform 200ms linear;
+}
+.incone a:hover {
+    box-shadow: 2px 2px 12px #00abf0;
+    transform: scale(1.20);
+}

@@ -1,0 +1,7 @@
+
+
+var idade_ano = inteiro(leia('Digite uma idade: '))
+
+var idade_dias =  idade_ano * 365
+
+escreva('A sua idade em dias é' + idade_dias)

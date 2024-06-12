@@ -1,0 +1,25 @@
+// Faça um algoritmo que receba 20 numeros, coloque num vetor, e depois imprima os
+// numeros em ordem decrescente
+
+var vetor = [];
+
+para (var i = 0; i < 20; i = i + 1) {
+    var valor = leia("Digite o valor " + (i + 1) + ": ");
+    vetor[i] = inteiro(valor);  
+    escreva("Valor lido e armazenado na posição " + i + ": " + valor);
+}
+
+vetor = ordenar(vetor);
+
+
+var inverterVetor = funcao(vetor) {
+    var vetorInvertido = [];
+    para (var i = tamanho(vetor) - 1; i >= 0; i = i - 1) {
+        vetorInvertido[i] = vetor[tamanho(vetor) - 1 - i];
+    }
+    retorna vetorInvertido;
+};
+
+vetor = inverterVetor(vetor);
+
+escreva("Vetor invertido: " + vetor);

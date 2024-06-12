@@ -1,0 +1,5 @@
+
+var n = inteiro(leia("Digite um número inteiro: "))
+var sucessor = n - 1
+var antecessor = n + 1
+escreva("O sucessor do seu número digitado é "+ sucessor +" e o antecessor é  "+ antecessor)

@@ -1,0 +1,7 @@
+
+var n1 = leia('Escreva primeiro número: ')
+var n2 = leia('Escreva segundo número: ')
+var n3 = leia('Escreva terceiro número: ')
+escreva(n3)
+escreva(n2)
+escreva(n1)

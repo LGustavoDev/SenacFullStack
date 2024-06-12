@@ -1,0 +1,11 @@
+
+var nota1 = real(leia('Digite sua primeira nota: '))
+
+var nota2 = real(leia('Digite sua segunda nota: ')) 
+
+var nota3 = real(leia('Digite sua terceira nota: ')) 
+
+var media = ((nota1 * 1) + (nota2 * 2) + (nota3 * 3)) / 6
+
+escreva('sua média ponderada é ' + media) 
+

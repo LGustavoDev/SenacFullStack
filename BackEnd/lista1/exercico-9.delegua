@@ -1,0 +1,5 @@
+
+var dolar =real(leia("Digite valor em dolar $ "))
+var cotacao = real(leia("Digite o valor da cotação R$ "))
+var somareais = dolar * cotacao
+escreva("O valor em reais é R$ "+ somareais)

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        
+    
+        h1 {
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            margin-bottom: 20px;
+        }
+    
+        h2 {
+            text-align: center;
+            background-color: rgba(53, 51, 51, 0.5);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    
+        #foto {
+            background-color: #e0f7fa;
+            border: 2px solid #00796b;
+            width: 150px;
+            height: 150px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #00796b;
+            border-radius: 50%;
+           
+        }
+    
+        div.section {
+            background-color: white;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 1000px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    
+        p {
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+    
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ccc;
+            margin: 20px 0;
+        }
+    
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    
+        .menu > div {
+            flex: 1 1 45%;
+            margin: 10px 0;
+        }
+    
+        @media (max-width: 600px) {
+            .menu > div {
+                flex: 1 1 100%;
+            }
+            
+        }
+        #botão {
+        display: block;
+        width: 100px;
+        margin: 20px auto;
+        padding: 10px 20px;
+        text-align: center;
+        background-color: #4CAF50;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    #botão:hover {
+        background-color: #45a049;
+    }
+    #topo {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+        background-color: #4CAF50;
+        color: white;
+        text-align: center;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        font-size: 24px;
+        z-index: 1000;
+    }
+
+    #topo:hover {
+        background-color: #45a049;
+    }
+    </style>
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="cabeçalho">
+        <h1>MEU CURRÍCULO</h1>
+        <div id="foto"></div>
+    </div>
+    <a id="botão" href="portfolio.html">Voltar</a>
+    <div id="topo" onclick="scrollToTop()">↑</div>
+
+    <div class="section">
+        <h2>DADOS PESSOAIS</h2>
+        <p>Nome:</p>
+        <p>Contato: E-mail:</p>
+        <p>Endereço:</p>
+        <p>Estado Civil:</p>
+    </div>
+
+    <div class="section">
+        <h2>FORMAÇÃO</h2>
+        <div class="menu">
+            <div>
+                <p>Escola:</p>
+                <p>Curso:</p>
+                <p>Data Início:</p>
+                <p>Data Término:</p>
+            </div>
+            <hr>
+            <div>
+                <p>Escola:</p>
+                <p>Curso:</p>
+                <p>Data Início:</p>
+                <p>Data Término:</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>CERTIFICAÇÕES</h2>
+        <div class="menu">
+            <div>
+                <p>Escola:</p>
+                <p>Curso:</p>
+                <p>Carga Horária:</p>
+            </div>
+            <hr>
+            <div>
+                <p>Escola:</p>
+                <p>Curso:</p>
+                <p>Carga Horária:</p>
+            </div>
+            <hr>
+            <div>
+                <p>Escola:</p>
+                <p>Curso:</p>
+                <p>Carga Horária:</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>EXPERIÊNCIAS PROFISSIONAL</h2>
+        <div class="menu">
+            <div>
+                <p>Empresa:</p>
+                <p>Cargo:</p>
+                <p>Data Início:</p>
+                <p>Data Término:</p>
+                <p>Descrição das Atividades:</p>
+            </div>
+            <hr>
+            <div>
+                <p>Empresa:</p>
+                <p>Cargo:</p>
+                <p>Data Início:</p>
+                <p>Data Término:</p>
+                <p>Descrição das Atividades:</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>

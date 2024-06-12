@@ -1,0 +1,10 @@
+
+var raio = real(leia('Digite raio de um circulo: '))
+
+var perimetro = 2 * raio * 3.14
+
+escreva('O perimetro é =' +  perimetro)
+
+
+
+ 

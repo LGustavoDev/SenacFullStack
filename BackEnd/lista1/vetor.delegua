@@ -1,0 +1,7 @@
+
+var vetor = [15,20,40,60,95]
+para (var i = 0; i < 5; i = i + 1){
+
+    escreva(vetor[i])
+}
+

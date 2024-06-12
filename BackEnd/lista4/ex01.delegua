@@ -1,0 +1,9 @@
+// 1-) Faça um algoritmo que pergunte o nome do usuario, depois mostre o tamanho do nome dele.
+
+var letras = [];
+
+var nome = leia(" Degite seu nome: " );
+
+letras = tamanho(nome);
+
+escreva(" Seu nome tem " + letras +  "letras");

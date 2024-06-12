@@ -1,0 +1,14 @@
+
+
+var notade2 = real(leia('Digite a quantidade de notas de 2,00 você deseja: '))
+var notade5 = real(leia('Digite a quantidade de notas de 5,00 você deseja: '))
+var notade10 = real(leia('Digite a quantidade de notas de 10,00 você deseja: '))
+var notade20= real(leia('Digite a quantidade de notas de 20,00 você deseja: '))
+var notade50 = real(leia('Digite a quantidade de notas de 50,00 você deseja: '))
+var notade100 = real(leia('Digite a quantidade de notas de 100,00 você deseja: '))
+var notade200 = real(leia('Digite a quantidade de notas de 200,00 você deseja: '))
+
+var valortotal = (notade2* 2) + (notade5* 5) + (notade10* 10) + (notade20* 20) + (notade50* 50) +
+                 (notade100* 100) + (notade200* 200)
+
+escreva("O valor total do Montante é R$: "+ valortotal)                

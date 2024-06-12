@@ -1,0 +1,6 @@
+
+var co = real(leia("Digite o valor do cateto oposto: "))
+var ca = real(leia("Digite o valor do cateto adjacente: "))
+var hi = ((co * co) + (ca * ca)) ** (1/2)
+
+escreva("O valor da hipotenusa é " + hi)
