@@ -1,0 +1,87 @@
+.pai1 {
+  background-color: rgb(30, 70, 70);
+  display: flex;
+  width: 100%;
+  height: 600px;
+  flex-direction: row;
+}
+
+.f1, .f2, .f3, .f4, .f5, .f6 {
+  width: 100%;
+  height: 200px;
+
+}
+
+.f1 {
+  background-color: brown;
+  flex: 2;
+
+
+}
+
+.f2 {
+  background-color: aquamarine;
+  flex: 2;
+  align-self: center;
+
+  
+}
+
+.f3 {
+  display: flex;
+  background-color: blue;
+  flex: 2;
+  align-self: flex-end;
+}
+
+.n1 {
+  background-color: black;
+  flex: 1;
+  width: 100%;
+  height: 100px;
+}
+.n2 {
+  background-color: black;
+  flex: 1;
+  width: 100%;
+  height: 100px;
+  align-self: flex-end;
+}
+
+.f4 {
+  display: flex;
+  background-color: rgba(58, 58, 131, 0.719);
+  flex: 2;
+  align-self: flex-end;
+}
+
+.n3 {
+  background-color: black;
+  flex: 1;
+  width: 100%;
+  height: 100px;
+  align-self: flex-end;
+}
+.n4 {
+  background-color: black;
+  flex: 1;
+  width: 100%;
+  height: 100px;
+}
+
+.f5 {
+  background-color: chartreuse;
+  flex: 2;
+  align-self: center;
+
+  
+}
+
+.f6 {
+  background-color: coral;
+  flex: 2;
+
+  
+}
+
+
