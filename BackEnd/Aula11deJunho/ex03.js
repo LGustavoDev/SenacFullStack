@@ -9,3 +9,5 @@ function mensagem() {
 var msn1 = mensagem()
 
 console.log(msn1);
+
+

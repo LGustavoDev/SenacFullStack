@@ -1,5 +1,5 @@
 
-function mensagem(mensagem) {
+function mensagem() {
 
     console.log("Hello World");
     

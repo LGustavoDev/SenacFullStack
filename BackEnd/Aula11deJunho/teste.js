@@ -1,14 +1,15 @@
 
-
-function mediaVetores(VetVetor) {
-    for (var i = 0; i < VetVetor.lenght; i++) {
-        vlrMedia += VetVetor[i];
+var vlrMedia=0;
+function mediaVetores(vetVetor) {
+    
+    for (var i = 0; i < vetVetor.lenght; i++) {
+        vlrMedia += vetVetor[i];
     }
-    vlrMedia = vlrMedia/VetVetor.lenght;
+    vlrMedia = vlrMedia/vetVetor.lenght;
     return vlrMedia
 }
-var VetorTeste = [6, 7, 8, 9];
+var vetorTeste = [6, 7, 8, 9];
 
-var vlrMedia = mediaVetores(VetorTeste);
+var vlrMedia = mediaVetores(vetorTeste);
 
 console.log(vlrMedia);
