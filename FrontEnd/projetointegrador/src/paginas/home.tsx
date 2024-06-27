@@ -1,12 +1,16 @@
 import React from "react";
+import Padrao from "../componentes/menu/principal";
+import Candidato from "../componentes/menu/candidato";
+
 
 function Home() {
 
     return(
 
         <div>
-            <h1>Ola, legal</h1>
-            <h1>parabens pra nois</h1>
+            <Candidato/>
+            <Padrao/>
+           essa é a minha pagina de vagas
 
         </div>
     )

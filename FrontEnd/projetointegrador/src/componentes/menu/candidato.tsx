@@ -5,6 +5,7 @@ function Candidato() {
     return(
 
         <div>
+            area candidato
 
         </div>
     )
