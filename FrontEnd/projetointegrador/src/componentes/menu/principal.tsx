@@ -1,12 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+type Principal = {
+    titulo: String
+}
 
-function Padrao() {
+
+function Padrao(valores: Principal) {
 
     return(
 
+
         <div>
+            
+        {valores.titulo}
+        
             <h1>você viu</h1>
             <ul>
                 <li> <Link to="/">Home</Link></li>

@@ -9,7 +9,7 @@ function Home() {
 
         <div>
             <Candidato/>
-            <Padrao/>
+            <Padrao titulo = "principal"/>
            essa é a minha pagina de vagas
 
         </div>
