@@ -1,5 +1,5 @@
 import React from "react";
-import Padrao from "../componentes/menu/principal";
+import Padrao from "../componentes/menu/padrao";
 import Candidato from "../componentes/menu/candidato";
 
 
